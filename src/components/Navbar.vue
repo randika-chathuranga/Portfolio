@@ -1,0 +1,57 @@
+<template>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Randika</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <router-link to="/" class="nav-link">Home</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/about" class="nav-link">About</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/skills" class="nav-link">Skills</router-link>
+            </li>
+            <li class="nav-item">
+              <router-link to="/qualifications" class="nav-link"
+                >Qualifications</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <router-link to="/services" class="nav-link"
+                >Services</router-link
+              >
+            </li>
+            <li class="nav-item">
+              <router-link to="/contact" class="nav-link">Contact</router-link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</template>
+
+
+<style>
+#navbarNav {
+  margin-left: 400px;
+}
+
+.nav-item {
+  padding-right: 40px;
+}
+</style>
