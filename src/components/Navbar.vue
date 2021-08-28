@@ -54,4 +54,7 @@
 .nav-item {
   padding-right: 40px;
 }
+.navbar-brand {
+  padding-left: 50px;
+}
 </style>
