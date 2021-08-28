@@ -1,12 +1,10 @@
 <template>
-  <div class="card w-50">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">
-        With supporting text below as a natural lead-in to additional content.
-      </p>
-      <a href="#" class="btn btn-primary">Button</a>
-    </div>
+  <div class="top">
+    <h1>Hi I'm Randika</h1>
+    <h3>Frontend Developer</h3>
+    <h5>
+      I'm a frontend developer who works in Techzone world reputed company
+    </h5>
   </div>
 </template>
 
@@ -17,7 +15,9 @@ export default {
 </script>
 
 <style>
-.card-body {
-  border: none;
+.top {
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: "Kaisei HarunoUmi", serif;
 }
 </style>
