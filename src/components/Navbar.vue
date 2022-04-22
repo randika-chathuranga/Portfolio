@@ -32,7 +32,7 @@
             </li>
             <li class="nav-item">
               <router-link to="/services" class="nav-link"
-                >Services</router-link
+                >Portfolio</router-link
               >
             </li>
             <li class="nav-item">

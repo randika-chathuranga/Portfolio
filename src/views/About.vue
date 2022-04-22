@@ -1,70 +1,50 @@
 <template>
-  <div class="about">
-    <h1>About Me</h1>
-    <h5>My Intoduction</h5>
-
-    <div class="img02">
-      <img src="./randika02.jpeg" alt="" />
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h5>
-            I am a developer working at TechZone world reputed company within 3
-            years
-          </h5>
-        </div>
-
-        <div class="w-100"></div>
-
-        <div class="col">
-          <v-card color="yellow" height="100px" width="150px">
-            <v-card-text><b> 08+ years of experience </b></v-card-text>
-          </v-card>
-        </div>
-        <div class="col">
-          <v-card color="yellow" height="100px" width="150px">
-            <v-card-text><b> 20+ Completed Projects </b></v-card-text>
-          </v-card>
-        </div>
-        <div class="col">
-          <v-card color="yellow" height="100px" width="150px">
-            <v-card-text><b> 05+ Company Works </b></v-card-text>
-          </v-card>
-        </div>
-        <div class="w-100"></div>
-
-        <div class="col">
-          <v-btn color="primary" class="ml-20 mt-7">Download CV</v-btn>
-        </div>
-      </div>
-    </div>
-  </div>
+      <section class="about-me" id="about">
+                <v-img class="pa-10" height="400" gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                       src="https://designshack.net/wp-content/uploads/Home-office.jpg">
+                    <v-row justify="center" class="align-center">
+                        <v-col lg="6" cols="6">
+                            <v-card class="text-center pa-6 rounded-lg" color="#e1e0e0c9" elevation="6">
+                                <v-card-subtitle class="green--text">ABOUT MYSELF</v-card-subtitle>
+                                <h2 class="display-1 font-weight-regular">
+                                    I’m a Creative director based on New York, who loves clean, simple & unique design.
+                                    I also enjoy crafting..
+                                </h2>
+                                <v-btn large elevation="5" color="pink" class="white--text mt-10 px-10 py-5">Download
+                                    Resume
+                                    <v-icon>mdi-download</v-icon>
+                                </v-btn>
+                            </v-card>
+                        </v-col>
+                        <v-col lg="6" cols="6">
+                            <v-card class="pa-6 rounded-lg" color="#e1e0e0c9" elevation="6">
+                                <div class="py-1" v-for="(item,index) in items" :key="index">
+                                    <label>{{ item.title }}</label>
+                                    <v-progress-linear
+                                            :color="item.color"
+                                            height="10"
+                                            :value="item.value"
+                                    ></v-progress-linear>
+                                </div>
+                            </v-card>
+                        </v-col>
+                    </v-row>
+                </v-img>
+            </section>
 </template>
 
 <script>
 export default {
-  name: "About",
-};
+   data: () => ({
+            drawer: null,
+            items: [
+                {title: 'HTML', value: 100, color: 'light-blue'},
+                {title: 'CSS', value: 100, color: 'deep-orange'},
+                {title: 'Javascript', value: 70, color: 'light-green'},
+                {title: 'Vuejs', value: 80, color: 'blue'},
+                {title: 'Vuetify', value: 90, color: 'black'},
+                {title: 'PHP', value: 100, color: 'red'},
+            ]
+        }),
+}
 </script>
-
-<style>
-.about {
-  text-align: center;
-}
-h5 {
-  padding-top: 0px;
-}
-.img02 {
-  float: left;
-  padding-top: 20px;
-  padding-left: 50px;
-}
-.container {
-  padding-top: 40px;
-}
-.col {
-  padding-top: 20px;
-}
-</style>
