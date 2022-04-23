@@ -5,8 +5,8 @@
       <Home />
       <About />
       <Skills />
-      <Qualifications />
-      <Services />
+      <Experience />
+      <Portfolio />
       <Contact />
     </v-main>
   </v-app>
@@ -17,8 +17,8 @@ import Navbar from "./components/Navbar.vue";
 import Home from "./views/Home.vue";
 import About from "./views/About.vue";
 import Skills from "./views/Skills.vue";
-import Qualifications from "./views/Qualifications.vue";
-import Services from "./views/Services.vue";
+import Experience from "./views/Experience.vue";
+import Portfolio from "./views/Portfolio.vue";
 import Contact from "./views/Contact.vue";
 
 export default {
@@ -28,8 +28,8 @@ export default {
     Home,
     About,
     Skills,
-    Qualifications,
-    Services,
+    Experience,
+    Portfolio,
     Contact
   },
 

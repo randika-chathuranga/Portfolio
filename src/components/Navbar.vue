@@ -26,12 +26,12 @@
               <router-link to="/skills" class="nav-link">Skills</router-link>
             </li>
             <li class="nav-item">
-              <router-link to="/qualifications" class="nav-link"
-                >Qualifications</router-link
+              <router-link to="/experience" class="nav-link"
+                >Experience</router-link
               >
             </li>
             <li class="nav-item">
-              <router-link to="/services" class="nav-link"
+              <router-link to="/portfolio" class="nav-link"
                 >Portfolio</router-link
               >
             </li>

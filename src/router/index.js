@@ -3,8 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Skills from '../views/Skills.vue'
-import Qualifications from '../views/Qualifications.vue'
-import Services from '../views/Services'
+import Experience from '../views/Experience.vue'
+import Portfolio from '../views/Portfolio'
 import Contact from '../views/Contact'
 Vue.use(VueRouter)
 
@@ -25,14 +25,14 @@ const routes = [
     component: Skills
   },
   {
-    path: '/qualifications',
-    name: 'Qualifications',
-    component: Qualifications
+    path: '/experience',
+    name: 'Experience',
+    component: Experience
   },
   {
-    path: '/services',
-    name: 'Services',
-    component: Services
+    path: '/portfolio',
+    name: 'Portfolio',
+    component: Portfolio
   }, {
     path: '/contact',
     name: 'Contact',
