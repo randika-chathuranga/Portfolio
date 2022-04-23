@@ -32,26 +32,26 @@ export default {
                 {
                     title: 'User Experience Designer',
                     date: 'March 2020 - Present',
-                    institute: 'Web Burden',
-                    decription: 'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.'
+                    institute: 'Code X',
+                    decription: 'I have the ability to create an amazing Dashboard/Admin UI UX for your website or to re-create your existing web/app into a modernized one'
                 },
                 {
-                    title: 'UI Designer',
-                    date: 'March 2020 - Present',
-                    institute: 'Web Burden',
-                    decription: 'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.'
+                    title: 'Web Developer',
+                    date: 'January 2019 - Present',
+                    institute: 'Code X',
+                    decription: 'I am Randika, A Professional Frontend  Developer providing reliable web services for a custom website since 2019.'
                 },
                 {
-                    title: 'Illustration Artiest',
-                    date: 'March 2020 - Present',
-                    institute: 'Web Burden',
-                    decription: 'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.'
+                    title: 'Illustration Artist',
+                    date: 'September 2018 - Present',
+                    institute: 'Code X',
+                    decription: 'I will draw or paint what you need. I can design it from scratch but if you already have an idea, thats cool too.'
                 },
                 {
                     title: 'Graphic Designer',
-                    date: 'March 2020 - Present',
-                    institute: 'Web Burden',
-                    decription: 'Proin laoreet elementum ligula, ac tincidunt lorem accumsan nec. Fusce eget urna ante. Donec massa velit, varius a accumsan ac, tempor iaculis massa. Sed placerat justo sed libero varius vulputate.'
+                    date: 'March 2018 - Present',
+                    institute: 'Code X',
+                    decription: 'I am an expert in Photoshop and I can do pretty much everything with images. Labels, banners, logos, packaging, vector designs, flyers, business cards.'
                 },
             ],
             

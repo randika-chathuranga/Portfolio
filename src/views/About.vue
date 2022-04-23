@@ -7,8 +7,7 @@
                             <v-card class="text-center pa-6 rounded-lg" color="#e1e0e0c9" elevation="6">
                                 <v-card-subtitle class="green--text">ABOUT MYSELF</v-card-subtitle>
                                 <h2 class="display-1 font-weight-regular">
-                                    I’m a Creative director based on New York, who loves clean, simple & unique design.
-                                    I also enjoy crafting..
+                                    I’m a Web developer. I have experience in this field more than 3 years. Also I'm a graphic designer
                                 </h2>
                                 <v-btn large elevation="5" color="pink" class="white--text mt-10 px-10 py-5">Download
                                     Resume
